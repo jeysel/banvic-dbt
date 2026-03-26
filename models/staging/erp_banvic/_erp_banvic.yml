@@ -49,7 +49,7 @@ sources:
       - name: propostas_credito
         description: Tabela que registra as propostas de crédito feitas aos clientes.
         columns:
-          - name: cod_transacao
+          - name: cod_proposta
             tests:
               - unique
               - not_null
