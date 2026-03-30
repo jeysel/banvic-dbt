@@ -1,7 +1,7 @@
 
 models:
-  - name: dim_clientes
-    description: Modelo dimensão de clientes.
+  - name: stg_erp__clientes
+    description: Modelo staging para os dados de clientes provenientes do sistema ERP.
     columns:
       - name: pk_cliente
         description: Chave primária do cliente.

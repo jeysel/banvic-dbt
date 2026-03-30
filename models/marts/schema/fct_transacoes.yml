@@ -36,3 +36,13 @@ models:
               field: pk_data
       - name: numero_transacao
         description: Número identificador da transação.
+      - name: data_transacao
+        description: Data da transação (sem timestamp).
+      - name: ts_transacao
+        description: Timestamp completo da transação.
+      - name: nome_transacao
+        description: Nome ou descrição da transação.
+      - name: tipo_trasacao
+        description: Tipo da transação, classificada como 'Crédito' ou 'Débito'.
+      - name: valor_transacao
+        description: Valor monetário da transação.

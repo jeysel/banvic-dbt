@@ -4,7 +4,7 @@ with
         from {{ source("erp", "clientes") }}
     )
 
-    , renomeado as (
+    , renomeado_transformacao as (
         select            
             cast(cod_cliente as int) as pk_cliente
             , cast(cod_localidade as int) as fk_localidade
@@ -20,4 +20,4 @@ with
     )
 
 select *
-from renomeado
+from renomeado_transformacao
