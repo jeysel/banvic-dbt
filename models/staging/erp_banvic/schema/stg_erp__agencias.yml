@@ -1,7 +1,7 @@
 
 models:
-  - name: dim_agencias
-    description: Modelo dimensão de agencias.
+  - name: stg_erp__agencias
+    description: Modelo staging para agencias.
     columns:
       - name: pk_agencia
         description: Chave primária da tabela agencias.
