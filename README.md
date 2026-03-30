@@ -25,10 +25,10 @@ Em caso a linha de comando do dbt fique com o status de estar sempre carregando,
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 
 
-# Projetos complementares
+# Analytics Engineer
 Este projeto faz parte da minha formação em Analytics Engineering pela Indicium.ai.
 Meu portfólio principal com projetos autorais está disponível em:
-https://github.com/jeysel/Analytics-Engineer
+- https://github.com/jeysel/Analytics-Engineer
 
 
 
